@@ -1,0 +1,36 @@
+Coursera Data Science Specialization Course
+Getting and Cleanng Data
+
+The project uses data from the UCI Machine Learning Repository: Human Activity Recognition and Smart Phone Data site http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones:
+Data for the project can be downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+Variables: 
+      activity_labels = six activity codes and corresponding activity names
+      features = feature names for X_test, X_train
+
+      subject_test = test set subject number, 1-30
+      X_test = test set feature measurements
+      y_test = test set activity, coded 1-6
+
+      Subject_train = train set subject number, 1-30
+      X_train = train set feature measurements
+      y_train = train set activity, coded 1-6
+
+      Variables: Combined data sets
+      test = subject_test, y_test, X_test combined, by columns
+      train = subject_train, y_train, X_train combined, by columns
+      dataset = test, train, combined by rows
+
+      Variables: Column names
+      allnames = set of names corresponding to fullSet, not yet applied
+      meanstdcolumns = subject, activity, and all features with mean or standard deviation
+      reducedset = fullSet subsetted with meanStdColumns
+      newnames = allNames subsetted with meanstdcolumns, renamed; applied to reducedset
+
+      Variables: Tidy data set
+      tidydataset = data set with average of each variable, by activity, by subject
+      
+     
+      
+
+
